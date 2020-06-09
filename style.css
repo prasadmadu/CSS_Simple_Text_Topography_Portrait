@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+div{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+}
+img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+img:nth-child(2){
+  mix-blend-mode: multiply;
+}
